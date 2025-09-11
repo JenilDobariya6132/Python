@@ -1,0 +1,6 @@
+a = (5,6,7,5,5,9,7)
+b = ("a","b","v","b")
+tu1 = tuple(dict.fromkeys(a))
+print(tu1)
+tu2 = tuple(dict.fromkeys(b))
+print(tu2)
